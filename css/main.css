@@ -183,6 +183,9 @@ header .btn-hamburger .material-symbols-outlined{
   background-color: #333;
   color: #fff;
 }
+.about .title{
+margin-top: 0;
+}
 /* ABOUT 섹션 */
 /* 컨테이너 스타일 */
 
@@ -193,13 +196,13 @@ header .btn-hamburger .material-symbols-outlined{
 /* 화살표 컨테이너 스타일 */
 .arrow-wrapper {
   position: absolute;
-  top: 50%; /* Adjust the percentage value to move it down */
+  top: 10%; 
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 900px; /* Increase margin for more downward movement */
+  margin-top: 800px; 
 }
 
 .arrow-wrapper h1 {
@@ -268,6 +271,9 @@ header .btn-hamburger .material-symbols-outlined{
   margin: 0;
   background-color: #333; /* 어두운 배경색 */
   color: #fff; /* 밝은 텍스트 색상 */
+}
+.about .title{
+  margin-top: 200px;
 }
 
 .about .inner {
