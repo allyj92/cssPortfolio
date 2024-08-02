@@ -509,9 +509,9 @@ margin-top: 0;
 
 .badge-container {
   margin: 0 auto;
-  max-width: 80%; /* Reduce the maximum width for smaller devices */
-  padding-top: 40px; /* Adjust spacing as needed */
-  overflow: hidden; /* Ensure badges don't overflow */
+  max-width: 80%; 
+  padding-top: 40px; 
+  overflow: hidden; 
 }
 
 .badge-container ul {
@@ -1295,6 +1295,11 @@ footer .copyright {
   /* course */
   .course-container .title{
     margin-top: 0;
+  }
+
+  .badge-container ul li{
+    border-radius: 50%;
+    width: 6rem;
   }
 
 
