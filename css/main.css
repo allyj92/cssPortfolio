@@ -520,7 +520,8 @@ header .btn-hamburger .material-symbols-outlined {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px; /* Increase or decrease gap between badges */
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .badge-container ul li {
@@ -535,6 +536,12 @@ header .btn-hamburger .material-symbols-outlined {
   border-radius: 50%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: rotate 20s linear infinite;
+  transition: 1s;
+}
+
+.badge-container ul li:hover {
+  width: 100px;
+  height: 100px;
 }
 
 /* Make sure to stagger the rotation timing for a nice visual effect */
