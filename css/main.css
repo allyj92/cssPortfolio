@@ -1226,15 +1226,40 @@ footer .copyright {
     flex-direction: column;
   }
   .about .about__wrapper .about__img {
-    width: 184px;
-    height: 200px;
+    width: 100%;
     text-align: center;
     padding-bottom: 0;
+  }
+
+  .about .about__wrapper .about__img img {
+    width: 150px;
+    height: 150px;
   }
 
   .about .about__wrapper .about__text {
     width: 100%;
     text-align: center;
+  }
+
+  .about .about__wrapper .about__text .slogan {
+    font-size: 23px;
+  }
+
+  .about .about__wrapper .about__text h3 {
+    font-size: 18px;
+    margin-top: 500px 0;
+  }
+
+  .about .about__wrapper .about__text ul li {
+    font-size: 12px;
+  }
+
+  .about .about__wrapper .about__contact img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
   }
   /* skill */
 
@@ -1250,8 +1275,17 @@ footer .copyright {
     gap: 30px;
   }
 
+  .stack-bar {
+    padding-right: 22px;
+  }
+
   .badge-container ul li {
     width: 50px;
+  }
+
+  /* course */
+  #traning-course .outer .inner-list {
+    height: 300px;
   }
 
   /* work */
@@ -1299,10 +1333,9 @@ footer .copyright {
     max-height: 800px;
     padding-top: 0;
   }
-}
 
-@media screen and (max-width: 300px) {
-  .about .about__wrapper .about__img {
-    margin-bottom: 200px;
+  /* contact */
+  .contact {
+    margin-top: 0;
   }
 }
