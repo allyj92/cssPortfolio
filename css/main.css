@@ -1288,6 +1288,29 @@ footer .copyright {
     height: 300px;
   }
 
+  .word-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    gap: 0px;
+  }
+  .word-circle .word {
+    font-size: 20px;
+    color: #333333;
+  }
+  .word-circle .description {
+    font-size: 12px;
+    color: #7e7c75;
+  }
+
+  .impact-words .container img {
+    width: 120px;
+  }
+
+  .impact-words .container h1 {
+    font-size: 30px;
+  }
+
   /* work */
   .work {
     padding-top: 100px;
@@ -1309,6 +1332,12 @@ footer .copyright {
 
   .contact {
     padding: 100px 0;
+  }
+
+  .portfolio-item {
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   /* course */
