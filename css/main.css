@@ -150,17 +150,15 @@ header nav ul li a:hover {
   /* text-shadow: 1px 1px 5px #333; */
 }
 
-header .btn-hamburger{
+header .btn-hamburger {
   display: none;
 }
 
-
-header .btn-hamburger .material-symbols-outlined{
-  color:#ffd700;
+header .btn-hamburger .material-symbols-outlined {
+  color: #ffd700;
   font-size: 40px;
-  line-height:  normal;
+  line-height: normal;
 }
-
 
 /* VISUAL */
 .visual {
@@ -183,8 +181,8 @@ header .btn-hamburger .material-symbols-outlined{
   background-color: #333;
   color: #fff;
 }
-.about .title{
-margin-top: 0;
+.about .title {
+  margin-top: 0;
 }
 /* ABOUT 섹션 */
 /* 컨테이너 스타일 */
@@ -196,13 +194,13 @@ margin-top: 0;
 /* 화살표 컨테이너 스타일 */
 .arrow-wrapper {
   position: absolute;
-  top: 10%; 
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 800px; 
+  margin-top: 800px;
 }
 
 .arrow-wrapper h1 {
@@ -272,7 +270,7 @@ margin-top: 0;
   background-color: #333; /* 어두운 배경색 */
   color: #fff; /* 밝은 텍스트 색상 */
 }
-.about .title{
+.about .title {
   margin-top: 200px;
 }
 
@@ -295,12 +293,10 @@ margin-top: 0;
 }
 
 .about .about__wrapper .about__img {
-  
   max-width: 400px; /* 최대 너비 설정 */
   position: relative; /* 상대 위치 설정 */
   padding-bottom: 270px;
 
-  
   border-radius: 50%;
   display: block; /* 이미지를 블록 수준 요소로 변경 */
   border: none; /* 테두리 제거 */
@@ -308,14 +304,12 @@ margin-top: 0;
 }
 
 .about .about__wrapper .about__img img {
-
   border-radius: 50%;
   display: block; /* 이미지를 블록 수준 요소로 변경 */
   border: none; /* 테두리 제거 */
   margin-top: 30px;
   width: 20rem;
   height: 21rem;
-  
 }
 
 .about .about__contact {
@@ -416,7 +410,7 @@ margin-top: 0;
   background-color: #f4f4f4;
   padding: 40px 20px;
   text-align: center;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .slogan-content {
@@ -507,11 +501,18 @@ margin-top: 0;
 
 /* Badge Container */
 
+.badge-container .stack-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 100px;
+}
+
 .badge-container {
   margin: 0 auto;
-  max-width: 80%; 
-  padding-top: 40px; 
-  overflow: hidden; 
+  max-width: 80%;
+  padding-top: 40px;
+  overflow: hidden;
 }
 
 .badge-container ul {
@@ -523,8 +524,8 @@ margin-top: 0;
 }
 
 .badge-container ul li {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -598,7 +599,7 @@ margin-top: 0;
     0 10px 10px rgba(129, 129, 129, 0.22);
 }
 
-.outer li{
+.outer li {
   margin-bottom: 30px;
 }
 
@@ -689,7 +690,6 @@ margin-top: 0;
 .button-list {
   margin-left: 1020px;
 }
-
 
 /* COURSE */
 .course-container {
@@ -782,7 +782,6 @@ margin-top: 0;
   text-align: center;
 }
 
-
 .impact-words .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -796,9 +795,9 @@ margin-top: 0;
   font-weight: bold;
 }
 
-.impact-words img{
+.impact-words img {
   width: 180px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .words-container {
@@ -857,7 +856,6 @@ margin-top: 0;
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 40px;
-
 }
 
 .portfolio-container {
@@ -1022,20 +1020,17 @@ margin-top: 0;
 }
 
 .contact .contact__sns ul img {
-  width: 30px; 
-  height: auto; 
-  margin-right: 10px; 
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
 }
 
-
 .contact .contact__sns ul li.instagram img {
-  
   content: url("instagram.png");
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); /*이미지 경계 제거*/
 }
 
 .contact .contact__sns ul li.facebook img {
-  
   content: url("facebook.png");
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); /*이미지 경계 제거*/
 }
@@ -1072,10 +1067,10 @@ footer .copyright {
   background-color: #fefefe;
   padding: 20px;
   border: 1px solid #888;
-  width: 1000%; 
-  max-width: 600px; 
-  max-height: 80%; 
-  overflow-y: auto; 
+  width: 1000%;
+  max-width: 600px;
+  max-height: 80%;
+  overflow-y: auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   animation: animatetop 0.4s;
@@ -1151,117 +1146,108 @@ footer .copyright {
 
 /* 반응형 */
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   /* 모바일에서는 화면의 80%만 차지하도록 */
 
-  .inner{
+  .inner {
     width: 80%;
   }
 
-  .title{
+  .title {
     font-size: 30px;
-    margin-bottom: 24px
-    
-  
+    margin-bottom: 24px;
   }
 
-  .title:after{
-
+  .title:after {
     width: 60px;
-
   }
 
-  header .btn-hamburger{
+  header .btn-hamburger {
     display: block;
   }
 
-  
-  header nav{
-   /* nav 디자인 및 배치 */
-   background-color: #636363;
-   color: #f8f8f8;
-   position: fixed;
-   top:60px;
-   left:0;
-   width: 100%;
-   /* display: none; */
-   height: 0;
-   transition: 0.4s;
-  overflow: hidden;
+  header nav {
+    /* nav 디자인 및 배치 */
+    background-color: #636363;
+    color: #f8f8f8;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    /* display: none; */
+    height: 0;
+    transition: 0.4s;
+    overflow: hidden;
   }
 
-  header nav.active{
+  header nav.active {
     height: 100%;
   }
 
-  header nav.active{
+  header nav.active {
     display: block;
-  } 
+  }
 
-  header nav ul{
+  header nav ul {
     /* ul 태그를 원래 보여짐 특성인 블록으로 원복 */
     display: block;
     padding-top: 60px;
   }
 
-  header nav ul li{
-    padding : 10px 80px;
+  header nav ul li {
+    padding: 10px 80px;
     font-size: 30px;
     border-bottom: 1px solid rgb(117, 117, 117);
-    border-top:  1px solid rgb(117, 117, 117);
+    border-top: 1px solid rgb(117, 117, 117);
   }
 
-  header nav ul li a{
+  header nav ul li a {
     transition: 0.5s;
   }
 
-  header nav ul li a:hover{
+  header nav ul li a:hover {
     letter-spacing: 20px;
   }
-
-
 
   .button-list {
     margin: 0 auto;
   }
 
-
   /* about */
 
-  .about .title{
+  .about .title {
     margin-top: 200px;
   }
 
   .about .about__contact {
-
     margin-left: 20px;
   }
-  .about .about__wrapper{
+  .about .about__wrapper {
     flex-direction: column;
   }
-  .about .about__wrapper .about__img{
-   
-      width: 100%;
-      text-align: center;
-      padding-bottom: 0;
+  .about .about__wrapper .about__img {
+    width: 184px;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 0;
   }
 
-  .about .about__wrapper .about__text{
+  .about .about__wrapper .about__text {
     width: 100%;
     text-align: center;
+  }
+  /* skill */
 
-}
-/* skill */
-
-  .skill{
+  .skill {
     padding-top: 100px;
   }
-  .skill .title{
+  .skill .title {
     margin-top: 0;
   }
-  .skill ,.skill__list{
+  .skill,
+  .skill__list {
     flex-wrap: wrap;
-    gap:30px;
+    gap: 30px;
   }
 
   .badge-container ul li {
@@ -1269,39 +1255,48 @@ footer .copyright {
   }
 
   /* work */
-  .work{
+  .work {
     padding-top: 100px;
   }
-  .work .port{
+  .work .port {
     flex-direction: column;
-    
-  .work .port .port__text{
-    padding:20px 0 0;
-  }  
-  
+
+    .work .port .port__text {
+      padding: 20px 0 0;
+    }
   }
-  .portfolio-content .btn-group{
+  .portfolio-content .btn-group {
     flex-wrap: wrap;
   }
 
-  .contact{
+  .contact {
     padding-top: 100px 0;
   }
-  
-  .contact{
+
+  .contact {
     padding: 100px 0;
   }
 
   /* course */
-  .course-container .title{
+  .course-container .title {
     margin-top: 0;
   }
 
-  .badge-container ul li{
+  .badge-container ul {
+    margin-bottom: 30px;
+  }
+  .badge-container ul li {
     border-radius: 50%;
-    width: 6rem;
+    width: 5rem;
+    height: 5rem;
   }
 
+  .work-section .inner h2 {
+    margin-top: 0;
+  }
 
-  
+  .portfolio-item {
+    max-height: 800px;
+    padding-top: 0;
+  }
 }
