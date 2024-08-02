@@ -823,9 +823,16 @@ header .btn-hamburger .material-symbols-outlined {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   padding: 20px; /* 패딩 추가로 설명과 단어의 간격 조정 */
+  transition: 1s;
+}
+
+.word-circle .word {
+  border-bottom: 1px solid rgb(212, 212, 212);
 }
 
 .word-circle:hover {
+  width: 240px; /* 증가된 원의 크기 */
+  height: 240px;
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
@@ -1293,10 +1300,23 @@ footer .copyright {
     height: 150px;
     border-radius: 0;
     gap: 0px;
+    transition: 2s;
   }
+
+  .word-circle:hover {
+    width: 180px;
+    height: 180px;
+  }
+
   .word-circle .word {
     font-size: 20px;
     color: #333333;
+    transition: 0.5s;
+    border-bottom: 1px solid rgb(212, 212, 212);
+  }
+
+  .word-circle .word:hover {
+    color: #555555;
   }
   .word-circle .description {
     font-size: 12px;
