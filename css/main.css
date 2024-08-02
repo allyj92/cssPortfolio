@@ -1300,3 +1300,9 @@ footer .copyright {
     padding-top: 0;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .about .about__wrapper .about__img {
+    margin-bottom: 200px;
+  }
+}
