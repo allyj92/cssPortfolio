@@ -1228,7 +1228,57 @@ footer .copyright {
 
     margin-left: 20px;
   }
+  .about .about__wrapper{
+    flex-direction: column;
+  }
+  .about .about__wrapper .about__img{
+   
+      width: 100%;
+      text-align: center;
+  }
+
+  .about .about__wrapper .about__text{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+  .skill{
+    padding-top: 100px;
+  }
+
+  .skill ,.skill__list{
+    flex-wrap: wrap;
+    gap:30px;
+  }
+
+  .badge-container ul li {
+    width: 50px;
+  }
+
+  .work{
+    padding-top: 100px;
+  }
+  .work .port{
+    flex-direction: column;
+    
+  .work .port .port__text{
+    padding:20px 0 0;
+  }  
   
+  }
+  .portfolio-content .btn-group{
+    flex-wrap: wrap;
+  }
+
+  .contact{
+    padding-top: 100px 0;
+  }
+  
+  .contact{
+    padding: 100px 0;
+  }
 
 
   
