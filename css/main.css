@@ -1215,13 +1215,15 @@ footer .copyright {
 
 
 
-
-
-
-
-
   .button-list {
     margin: 0 auto;
+  }
+
+
+  /* about */
+
+  .about .title{
+    margin-top: 200px;
   }
 
   .about .about__contact {
@@ -1235,6 +1237,7 @@ footer .copyright {
    
       width: 100%;
       text-align: center;
+      padding-bottom: 0;
   }
 
   .about .about__wrapper .about__text{
@@ -1242,12 +1245,14 @@ footer .copyright {
     text-align: center;
 
 }
-
+/* skill */
 
   .skill{
     padding-top: 100px;
   }
-
+  .skill .title{
+    margin-top: 0;
+  }
   .skill ,.skill__list{
     flex-wrap: wrap;
     gap:30px;
@@ -1257,6 +1262,7 @@ footer .copyright {
     width: 50px;
   }
 
+  /* work */
   .work{
     padding-top: 100px;
   }
@@ -1278,6 +1284,11 @@ footer .copyright {
   
   .contact{
     padding: 100px 0;
+  }
+
+  /* course */
+  .course-container .title{
+    margin-top: 0;
   }
 
 
