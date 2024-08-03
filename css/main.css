@@ -624,6 +624,7 @@ header .btn-hamburger .material-symbols-outlined {
   padding-top: 100px;
   border-radius: 50%;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .outer {
@@ -1336,6 +1337,10 @@ footer .copyright {
   }
 
   /* course */
+
+  .course-container img {
+    width: 10rem;
+  }
   #traning-course .outer .inner-list {
     height: 300px;
   }
